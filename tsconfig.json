@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "watch": true,
+    "baseUrl": "src",
+    "sourceMap": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "target": "es6",
+    "module": "es6",
+    // "lib": ["esnext", "es2018", "es2015", "es7", "es5", "es6"],
+    "moduleResolution": "node",
+    "allowJs": false,
+    "jsx": "react",
+    "types": [
+      
+    ],
+    "skipLibCheck": false
+  },
+
+  "compileOnSave": true,
+  // "include": ["src/**/*"]
+}
