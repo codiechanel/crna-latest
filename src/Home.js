@@ -4,6 +4,7 @@ import { Container, Content, Button, Text } from "native-base";
 import { StatusBar } from "react-native";
 export default class Home extends React.Component {
     render() {
+        console.log("nice");
         return (React.createElement(Container, null,
             React.createElement(StatusBar, { hidden: true }),
             React.createElement(Content, null,

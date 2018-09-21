@@ -9,15 +9,14 @@
     "target": "es6",
     "module": "es6",
     // "lib": ["esnext", "es2018", "es2015", "es7", "es5", "es6"],
+    "lib": ["es2018", "es2015"],
     "moduleResolution": "node",
     "allowJs": false,
     "jsx": "react",
-    "types": [
-      
-    ],
+    "types": [],
     "skipLibCheck": false
   },
 
-  "compileOnSave": true,
+  "compileOnSave": true
   // "include": ["src/**/*"]
 }

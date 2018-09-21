@@ -13,11 +13,13 @@ import { StatusBar, View } from "react-native"
 
 export default class Home extends React.Component<any, any> {
   render() {
+    console.log("nice");
+    
     return (
       <Container>
         <StatusBar hidden />
         <Content>
-          <Button>
+          <Button >
             <Text>cool</Text>
           </Button>
         </Content>
