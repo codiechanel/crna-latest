@@ -1,5 +1,5 @@
-import React from 'react';
-import { StyleSheet,  View } from 'react-native';
+import React from "react"
+import { StyleSheet, View } from "react-native"
 import {
   Container,
   Icon,
@@ -8,7 +8,7 @@ import {
   List,
   ListItem,
   Text
-} from "native-base";
+} from "native-base"
 import Home from "./src/Home"
 
 export default class App extends React.Component {
@@ -37,8 +37,8 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center"
+  }
+})
