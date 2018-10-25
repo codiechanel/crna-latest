@@ -9,6 +9,6 @@ export default class Home extends React.Component {
             React.createElement(StatusBar, { hidden: true }),
             React.createElement(Content, null,
                 React.createElement(Button, null,
-                    React.createElement(Text, null, "cool")))));
+                    React.createElement(Text, null, "this is nah great yo cool vv man ")))));
     }
 }
